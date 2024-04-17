@@ -1,4 +1,4 @@
-#container {
+.container {
     display: flex;
     flex-flow: row wrap;
     box-sizing: border-box;
@@ -23,4 +23,18 @@
 
 .makeBlue {
     background-color: blue;
+}
+.box {
+    
+        flex: 1;
+        display: flex;
+        flex-flow: column;
+        max-width: 100px;
+        max-height: 100px;
+        margin: 10px;
+        padding: 20px;
+        background-color: black;
+        
+    
+    
 }
